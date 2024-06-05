@@ -1,0 +1,16 @@
+ 1025  git commit -m "changing file"
+ 1026  touch main_test.txt 
+ 1027  git add . 
+ 1028  git commit -m "creating a new file"
+ 1029  git branch develop 
+ 1030  git checkout develop
+ 1031  touch develop_test.txt 
+ 1032  git add . 
+ 1033  git commit -m "creating a branch"
+ 1034  nano develop_test.txt 
+ 1035  git status 
+ 1036  git add . 
+ 1037  git commit -m "file editing"
+ 1038  git checkout main 
+ 1039  git merge develop 
+ 1040  git log 
