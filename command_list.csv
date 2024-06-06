@@ -1,3 +1,18 @@
+ 1010  git config --global user.name "milkuss"
+ 1011  git config --global user.email "milana.spesiwa1994@gmail.com"
+ 1012  cd HWGit
+ 1013  git clone https://github.com/milkuss/HW_10.git
+ 1014  cd HWGit
+ 1015  touch text_ignore.txt 
+ 1016  cd HW_10
+ 1017  touch text_ignore.txt
+ 1018  ls
+ 1019  ls -a
+ 1020  sudo nano 
+ 1021  sudo nano .gitignore
+ 1022  cat .gitignore
+ 1023  git status 
+ 1024  git add .
  1025  git commit -m "changing file"
  1026  touch main_test.txt 
  1027  git add . 
@@ -14,3 +29,14 @@
  1038  git checkout main 
  1039  git merge develop 
  1040  git log 
+ 1041  history > command_list.csv
+ 1042  git add
+ 1043  git add . 
+ 1044  git commit -m "save history"
+ 1045  git push  
+ 1046  git push 
+ 1047  git credential.helper 
+ 1048  git status
+ 1049  history
+ 1050  history -100
+ 1051  history -40 > command_list.csv
